@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Simple Tab Demo</title>
+<link href="simple-tab.min.css" rel="stylesheet">
+<style>
+
+html {overflow-y:scroll}
+
+body {
+  text-align:right;
+  padding:20px 50px;
+  background-color:white;
+  color:black;
+}
+
+.simpleTab {margin:50px auto}
+
+#tab3,
+#tab5,
+#tab6 {
+  width:auto !important;
+  margin:auto !important;
+}
+
+#tab3 .tab-content,
+#tab5 .tab-content,
+#tab6 .tab-content {height:auto}
+
+pre {
+  font:normal bold 11px/normal Tahoma,Verdana,"Courier New",Monospace;
+  background-color:white;
+  padding:10px 14px;
+  overflow:auto;
+  margin:0 0 20px;
+  border:1px solid black;
+  cursor:text;
+}
+
+</style>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="simple-tab.min.js"></script>
+<script>
+//<![CDATA[
+$(function() {
+    $('#tab1').simpleTab();
+    $('#tab2').simpleTab({active:4});
+    $('#tab3').simpleTab({fx:"fade",active:3});
+    $('#tab4,#tab5,#tab6').simpleTab({fx:"slide"});
+    $('#tab7').simpleTab({fx:"fancyslide"});
+});
+//]]>
+</script>
+</head>
+<body>
+
+  <h2><a style="color:black;text-decoration:none;" href="//dte.web.id/2012/06/simple-tab-jquery-plugin.html">Demo for Simple Tab jQuery Plugin</a></h2>
+
+<div id="tab1">
+    <div data-tab="Lorem"><pre>$('#tab1').simpleTab();</pre></div>
+    <div data-tab="Ipsum">Content 2</div>
+    <div data-tab="Dolor Sit">Content 3</div>
+    <div data-tab="Amet">Content 4</div>
+</div>
+
+<div id="tab2">
+    <div data-tab="Lorem">Content 1</div>
+    <div data-tab="Ipsum">Content 2</div>
+    <div data-tab="Dolor Sit">Content 3</div>
+    <div data-tab="Amet"><pre>$('#tab2').simpleTab({active:4});</pre>
+        <div id="tab3">
+            <div data-tab="Lorem">Content 1</div>
+            <div data-tab="Ipsum">Content 2</div>
+            <div data-tab="Dolor Sit"><pre>$('#tab3').simpleTab({fx:"fade",active:3});</pre></div>
+            <div data-tab="Amet">Content 4</div>
+        </div>
+    </div>
+</div>
+
+<div id="tab4">
+    <div data-tab="Lorem">
+        <div id="tab5">
+            <div data-tab="Lorem">
+                <div id="tab6">
+                    <div data-tab="Lorem"><pre>$('#tab4,#tab5,#tab6').simpleTab({fx:"slide"});</pre></div>
+                    <div data-tab="Ipsum">Content 2</div>
+                    <div data-tab="Dolor Sit">Content 3</div>
+                    <div data-tab="Amet">Content 4</div>
+                </div>
+            </div>
+            <div data-tab="Ipsum">Content 2</div>
+            <div data-tab="Dolor Sit">Content 3</div>
+            <div data-tab="Amet">Content 4</div>
+        </div>
+    </div>
+    <div data-tab="Ipsum">Content 2</div>
+    <div data-tab="Dolor Sit">Content 3</div>
+    <div data-tab="Amet">Content 4</div>
+</div>
+
+<div id="tab7">
+    <div data-tab="Lorem"><pre>$('#tab7').simpleTab({fx:"fancyslide"});</pre></div>
+    <div data-tab="Ipsum">Content 2</div>
+    <div data-tab="Dolor Sit">Content 3</div>
+    <div data-tab="Amet">Content 4</div>
+</div>
+
+<div style="height:200px;"></div>
+<a href="//github.com/tovic">Taufik Nurrohman</a>
+
+</body>
+</html>
