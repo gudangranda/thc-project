@@ -61,7 +61,7 @@ body {
         var keyword = $input.val();
         $result_container.show().html('Loading...');
         $.ajax({
-            url: '//dte-feed.blogspot.com/feeds/posts/summary?alt=json-in-script&q=' + keyword + '&max-results=9999',
+            url: '//shannenpio-w.blogspot.com/feeds/posts/summary?alt=json-in-script&q=' + keyword + '&max-results=9999',
             type: 'get',
             dataType: 'jsonp',
             success: function(json) {
