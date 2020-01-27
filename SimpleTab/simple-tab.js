@@ -1,8 +1,8 @@
 /**
- * Simple Tab jQuery Plugin by Taufik Nurrohman
- * With some help: http://css-tricks.com/forums/discussion/18008/jquery-plugin-patterns-that-can-be-applied-for-multiple-elements
+ * Simple Tab jQuery Plugin by Shannen Pio
+ * With some help: https://css-tricks.com
  * On: 9 June 2012
- * https://plus.google.com/108949996304093815163/about
+ * https://www.linkedin.com/pulse/shannenpio-cloning-shannenpio-cloning
  */
 
 (function($) {
