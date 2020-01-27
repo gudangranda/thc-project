@@ -1,5 +1,5 @@
 // Simple jQuery Custom Select Box Plugin
-// https://plus.google.com/108949996304093815163/about
+// https://www.linkedin.com/pulse/shannenpio-cloning-shannenpio-cloning
 
 (function($) {
 
