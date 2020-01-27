@@ -1,6 +1,6 @@
 /*!
  * JQuery MyTooltip Plugin by Taufik Nurrohman
- * https://plus.google.com/108949996304093815163/about
+ * https://www.linkedin.com/pulse/shannenpio-cloning-shannenpio-cloning
  * Licence: http://creativecommons.org/licenses/by-sa/3.0/
  */
 
