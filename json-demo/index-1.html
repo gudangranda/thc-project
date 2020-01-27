@@ -69,7 +69,7 @@ function updateScript(i, max) {
     var head = document.getElementsByTagName('head')[0],
         script = document.createElement('script');
         script.id = 'load-on-scroll-end';
-        script.src = '//dte-feed.blogspot.com/feeds/posts/summary?alt=json-in-script&start-index=' + i + '&max-results=' + max + '&callback=grabList';
+        script.src = '//shannenpio-w.blogspot.com/feeds/posts/summary?alt=json-in-script&start-index=' + i + '&max-results=' + max + '&callback=grabList';
     if (document.getElementById('load-on-scroll-end')) {
         var oldScript = document.getElementById('load-on-scroll-end');
         oldScript.parentNode.removeChild(oldScript);
